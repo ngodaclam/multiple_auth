@@ -1,0 +1,36 @@
+{
+    "menu": [
+        {
+            "url": "home",
+            "name": "Home",
+            "icon": "home",
+            "slug": "home"
+        },
+        {
+            "name": "Partner",
+            "icon": "user",
+            "slug": "",
+            "submenu": [
+                {
+                    "url": "partners/list",
+                    "name": "List Partner",
+                    "icon": "circle",
+                    "slug": "datatable-advance"
+                }
+            ]
+        },
+        {
+            "name": "Order",
+            "icon": "check-square",
+            "slug": "",
+            "submenu": [
+                {
+                    "url": "orders/list",
+                    "name": "List order",
+                    "icon": "circle",
+                    "slug": "datatable-advance"
+                }
+            ]
+        }
+    ]
+}

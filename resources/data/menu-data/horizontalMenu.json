@@ -1,0 +1,23 @@
+{
+    "menu": [
+        {
+            "url": "home",
+            "name": "Home",
+            "icon": "home",
+            "slug": "home"
+        },
+        {
+            "name": "Jiian",
+            "icon": "grid",
+            "slug": "",
+            "submenu": [
+                {
+                    "url": "partner/advance",
+                    "name": "Advance",
+                    "icon": "circle",
+                    "slug": "datatable-advance"
+                }
+            ]
+        }
+    ]
+}

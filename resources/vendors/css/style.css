@@ -1,0 +1,451 @@
+/*------------------------------------------------------------------
+[Main Stylesheet]
+
+Project:    LOGDY
+Version:    1.1.0
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[Table of contents]
+    *. Login Layout 1 / .login-1
+    *. Login Layout 2 / .login-2
+    *. Login Layout 3 / .login-3
+    *. Login Layout 4 / .login-11
+    *. Login Layout 5 / .login-5
+    *. Login Layout 6 / .login-17
+    *. Login Layout 7 / .login-7
+    *. Login Layout 8 / .login-8
+    *. Login Layout 9 / .login-4
+    *. Login Layout 10 / .login-10
+    *. Login Layout 11 / .login-19
+    *. Login Layout 12 / .login-12
+    *. Login Layout 13 / .login-27
+    *. Login Layout 14 / .login-33
+    *. Login Layout 15 / .login-22
+    *. Login Layout 16 / .login-16
+    *. Login Layout 17 / .login-13
+    *. Login Layout 18 / .login-21
+    *. Login Layout 19 / .login-37
+    *. Login Layout 20 / .login-20
+    *. Login Layout 21 / .login-36
+    *. Login Layout 22 / .login-35
+    *. Login Layout 23 / .login-23
+    *. Login Layout 47 / .login-30
+    *. Login Layout 25 / .login-25
+    *. Login Layout 26 / .login-38
+    *. Login Layout 27 / .login-26
+    *. Login Layout 28 / .login-28
+    *. Login Layout 29 / .login-29
+    *. Login Layout 30 / .login-31
+    *. Login Layout 31 / .login-24
+    *. Login Layout 32 / .login-32
+    *. Login Layout 33 / .login-39
+    *. Login Layout 34 / .login-34
+    *. Login Layout 35 / .login-40
+    *. Login inner form / .login-inner-form
+    *. Login inner form details / .details
+-------------------------------------------------------------------*/
+/** GLOBAL CLASSES **/
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #535353;
+}
+
+.img-fluid {
+    max-width: 100% !important;
+    height: auto;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+.nav-tabs {
+    border-bottom: 2px solid #f5f5f5;
+    margin-bottom: 20px !important;
+}
+.nav-item a {
+    border-bottom: 2px solid #003478 !important;
+    color: #003478 !important;
+    border-color: transparent;
+    border-width: 0 0 2px 0;
+    border-radius: 0;
+    color: #7f99bb;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: -0.56px;
+}
+.nav-item a:hover {
+    text-decoration: none;
+}
+.nav-tabs .nav-item {
+    margin-bottom: -1px;
+}
+.label-detail{
+    margin: 10px 0px !important;
+    font-size: 16px !important;
+    margin-bottom: 20px !important;
+    color: #193656 !important;
+}
+
+.form-box i {
+    color: #41C379 !important;
+}
+.error{
+    color: red;
+}
+/** Login 12 start **/
+.login-12 {
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.04) no-repeat center center;
+    background-size: cover;
+    top: 0;
+    width: 100%;
+    bottom: 0;
+    opacity: 1;
+    min-height: 100vh;
+    /*text-align: center;*/
+    position: relative;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+}
+
+.login-12 .login-inner-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.login-12 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Roboto", sans-serif;
+}
+
+
+.login-12 .login-inner-form .details {
+    padding: 50px;
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.login-12 .login-inner-form p {
+    color: #717171;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.login-12 .login-inner-form p a {
+    font-weight: 500;
+    color: #717171;
+}
+
+.login-12 .login-inner-form .extra-login {
+    float: left;
+    width: 100%;
+    margin: 30px 0 25px;
+    text-align: center;
+    position: relative;
+}
+
+.login-12 .login-inner-form .extra-login::before {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 100%;
+    height: 1px;
+    background: #d8dcdc;
+    content: "";
+}
+
+.login-12 .login-inner-form .extra-login > span {
+    width: auto;
+    float: none;
+    display: inline-block;
+    background: #fff;
+    padding: 1px 20px;
+    z-index: 1;
+    position: relative;
+    font-family: Open Sans;
+    font-size: 16px;
+    color: #717171;
+    text-transform: capitalize;
+}
+
+.login-12 .login-inner-form ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.login-12 .login-inner-form .social-list li {
+    display: inline-block;
+}
+
+.login-12 .login-inner-form .social-list li a {
+    margin: 1px;
+    font-size: 14px;
+    width: 110px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.login-12 .login-inner-form .thembo {
+    margin-left: 4px;
+}
+
+.login-12 .login-inner-form h3 {
+    margin: 0 0 25px;
+    font-size: 27px;
+    font-weight: 400;
+    text-align: center;
+    color: #313131;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.login-12 .login-inner-form .form-group {
+    margin-bottom: 25px;
+}
+
+.login-12 .login-inner-form .form-box {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.login-12 .login-inner-form .form-box input {
+    float: left;
+    width: 100%;
+    padding: 12px 15px 12px 45px;
+}
+
+.login-12 .login-inner-form .input-text {
+    font-size: 16px;
+    outline: none;
+    color: #717171;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .06);
+}
+
+.login-12 .login-inner-form .form-box i {
+    position: absolute;
+    top: 15px;
+    color: #717171;
+    left: 15px;
+    font-size: 19px;
+}
+
+.login-12 .login-inner-form .checkbox a {
+    font-size: 16px;
+}
+
+.login-12 .login-inner-form .checkbox .terms {
+    margin-left: 3px;
+}
+
+.login-12 .login-inner-form .btn-md {
+    cursor: pointer;
+    height: 50px;
+    color: #fff;
+    padding: 13px 50px 12px 50px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.login-12 .login-inner-form input[type=checkbox], input[type=radio] {
+    margin-right: 3px;
+}
+
+.login-12 .login-inner-form button:focus {
+    outline: none;
+    outline: 0 auto -webkit-focus-ring-color;
+}
+
+.login-12 .login-inner-form .btn-theme.focus, .btn-theme:focus {
+    box-shadow: none;
+}
+
+.login-12 .login-inner-form .btn-theme {
+    background: #41C379;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.login-12 .login-inner-form .btn-theme:hover {
+    background: #0104a1;
+}
+
+.login-12 .none-2 {
+    display: none;
+}
+
+.login-12 .logo {
+    top: 40px;
+    position: absolute;
+    left: 65px;
+}
+
+.login-12 .logo-2 {
+    text-align: center;
+}
+
+.login-12 .logo-2 img{
+    height: 35px;
+    margin-bottom: 30px;
+}
+
+.login-12 .login-inner-form .terms {
+    margin-left: 3px;
+}
+
+.login-12 .login-inner-form .checkbox {
+    margin-bottom: 25px;
+}
+
+.login-12 .login-inner-form .form-check {
+    float: left;
+    margin-bottom: 0;
+}
+
+.login-12 .login-inner-form .form-check a {
+    color: #717171;
+    float: right;
+}
+
+.login-12 .login-inner-form .form-check-input {
+    position: absolute;
+    margin-left: 0;
+}
+
+.login-12 .login-inner-form .form-check label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 3px;
+    margin-left: -25px;
+    border: 1px solid #c5c3c3;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.login-12 .login-inner-form .form-check-label {
+    padding-left: 25px;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #717171;
+}
+
+.login-12 .login-inner-form .checkbox-theme input[type="checkbox"]:checked + label::before {
+    border-color: #c823ea;
+    background: #c823ea;
+}
+
+.login-12 .login-inner-form input[type=checkbox]:checked + label:before {
+    font-weight: 300;
+    color: #f3f3f3;
+    line-height: 15px;
+    font-size: 14px;
+    content: "\2713";
+}
+
+.login-12 .login-inner-form input[type=checkbox], input[type=radio] {
+    margin-top: 4px;
+}
+
+.login-12 .login-inner-form .checkbox a {
+    font-size: 16px;
+    color: #717171;
+    float: right;
+}
+
+/** Social media **/
+.login-12 .facebook-bg {
+    background: #4867aa;
+    color: #fff;
+}
+
+.login-12 .facebook-bg:hover {
+    background: #3b589e;
+    color: #fff;
+}
+
+.login-12 .twitter-bg {
+    background: #33CCFF;
+    color: #fff;
+}
+
+.login-12 .twitter-bg:hover {
+    background: #56d7fe;
+    color: #fff;
+}
+
+.login-12 .google-bg {
+    background: #db4437;
+    color: #fff;
+}
+
+.login-12 .google-bg:hover {
+    background: #dc4e41;
+    color: #fff;
+}
+
+/** MEDIA **/
+@media (max-width: 992px) {
+    .login-12 {
+        padding: 50px 0;
+    }
+
+    .login-12 .login-inner-form {
+        margin: 0 auto 0;
+    }
+
+    @media (max-width: 768px) {
+        .login-12 .login-inner-form .details {
+            padding: 50px 30px;
+            background: #fff;
+        }
+    }
+}
+/** Login 12 end **/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
