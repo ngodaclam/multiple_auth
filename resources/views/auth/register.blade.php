@@ -104,12 +104,10 @@
                             @else
                                 <ul class="nav nav-tabs">
                                     <li class="nav-item">
-                                        <a href="javascript:;">ĐĂNG KÝ CỘNG TÁC VIÊN</a>
+                                        <a href="javascript:;">ĐĂNG KÝ</a>
                                     </li>
                                 </ul>
-                                <p class="text-left label-detail">Bạn muốn trở thành cộng tác viên của chúng tôi, vui
-                                    lòng
-                                    nhập thông tin vào form bên dưới.</p>
+                                <p class="text-left label-detail">Bạn muốn trận đấu cầu lông phù hợp với bản thân và bạn bè</p>
                                 <form action="{{route('register')}}" method="POST" id="partner-register">
                                     @csrf
                                     <div class="form-group form-box">

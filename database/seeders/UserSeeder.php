@@ -33,8 +33,8 @@ class UserSeeder extends Seeder
 
          // create partner user
         $partner = User::create([
-            'name' => 'Hoang Manh Tien',
-            'email' => 'tienhm@beetsoft.com.vn',
+            'name' => 'Ngo Lam',
+            'email' => 'lamnd@beetsoft.com.vn',
             'password' => Hash::make('12345678'),
             'mobile' => '0974844203',
             'birthday' => Carbon::parse('08/12/1990'),

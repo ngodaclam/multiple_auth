@@ -35,13 +35,12 @@
                 <li><a class="faicon-linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>
                 <li><a class="faicon-twitter" href="#"><i class="fab fa-twitter"></i></a></li>
             </ul>
-            <p class="nospace">Đồng hành cùng JIIAN trên mạng xã hội</p>
+            <p class="nospace">Đồng hành cùng VN Badminton trên mạng xã hội</p>
         </div>
         <hr class="btmspace-50">
         <div class="one_quarter first">
             <h6 class="heading">ĐĂNG KÝ TƯ VẤN TẠI ĐÂY</h6>
-            <p class="nospace btmspace-15">Đăng ký email để nhận được tư vấn miễn phí về bảo hiểm và nhận thông tin
-                khuyến mãi về các sản phẩm mới của chúng tôi.</p>
+            <p class="nospace btmspace-15">Đăng ký email để nhận được tư vấn miễn phí về các sản phẩm mới của chúng tôi.</p>
             <form id="register_subscriber" name="register_subscriber">
                 @csrf
                 <fieldset>
@@ -56,24 +55,24 @@
             <ul class="nospace linklist">
                 <li>
                     <article>
-                        <p class="nospace btmspace-10">Tầng 6 MITEC TOWER, Lot E2 – Yên Hoà, Cầu Giấy, Hà Nội, Việt
+                        <p class="nospace btmspace-10">Cầu Giấy, Hà Nội, Việt
                             Nam</p>
                     </article>
                 </li>
                 <li>
                     <article>
-                        <p class="nospace btmspace-10">Hotline : 0973622017</p>
-                        <p>Email : Jiian@beetsoft.com.vn</p>
+                        <p class="nospace btmspace-10">Hotline : 0123456789</p>
+                        <p>Email : vn@badminton.com.vn</p>
                     </article>
                 </li>
             </ul>
         </div>
         <div class="one_quarter">
-            <h6 class="heading">JIIAN VIỆT NAM</h6>
+            <h6 class="heading">BADMINTON VIỆT NAM</h6>
             <ul class="nospace linklist">
                 <li><a href="{{route('about')}}">Về chúng tôi</a></li>
-                <li><a href="#">Sản phẩm bảo hiểm</a></li>
-                <li><a href="{{route('knowledge')}}">Kiến thức bảo hiểm</a></li>
+{{--                <li><a href="#">Sản phẩm bảo hiểm</a></li>--}}
+{{--                <li><a href="{{route('knowledge')}}">Kiến thức bảo hiểm</a></li>--}}
                 <li><a href="{{route('news')}}">Tin tức</a></li>
                 <li><a href="#">Hoạt động cộng đồng</a></li>
             </ul>

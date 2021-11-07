@@ -8,7 +8,7 @@
                 <li><a class="faicon-linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>
                 <li><a class="faicon-twitter" href="#"><i class="fab fa-twitter"></i></a></li>
             </ul>
-            <p class="nospace">Đồng hành cùng JIIAN trên mạng xã hội</p>
+            <p class="nospace">Đồng hành cùng VN Badminton trên mạng xã hội</p>
         </div>
         <hr class="btmspace-50">
         <div class="one_quarter first">
